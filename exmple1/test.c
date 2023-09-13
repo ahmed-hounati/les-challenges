@@ -1,13 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 int main() {
-  int N , S , Z ;
-  printf("veullez entrer la valeur de N : ");
-  scanf("%d",&N);
-  printf("veullez entrer la valeur de S : ");
-  scanf("%d",&S);
-  printf("la valeur de Z est : %d ",N + S);  
-  
+   int T ;
+   printf("veullez entrer la tempairatteur : ");
+   scanf("%d",&T);
+   if (T < 0)
+      printf("l etat d eau est glasse");
+   else if (T < 100)
+      printf("l etat d eau est lequede");
+   else if (T > 100)
+      printf("l etat d eau est vapeur");
+   
+   
+   
+   
+
+    
+   
+
   return 0;
 }
